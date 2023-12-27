@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Plater.tscn" type="PackedScene" id=1]
+[ext_resource path="res://platform.tscn" type="PackedScene" id=2]
+
+[node name="Main" type="Node2D"]
+
+[node name="Plater" parent="." instance=ExtResource( 1 )]
+position = Vector2( 144, 448 )
+
+[node name="platform" parent="." instance=ExtResource( 2 )]
+position = Vector2( 96, 656 )
+
+[node name="platform2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 312, 656 )
+
+[node name="platform3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 424, 656 )
+
+[node name="platform4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 536, 656 )
+
+[node name="platform5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 640, 656 )
+
+[node name="platform6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 752, 656 )
+
+[node name="platform7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 864, 656 )
+
+[node name="platform8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 200, 656 )
